@@ -2,14 +2,12 @@ project:
   type: website
 
 website:
-  title: "fastai-catsvsdogs"
+  title: Nicholas Huang's Blog
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/nicholashuang23
 format:
   html:
     theme:
