@@ -10,7 +10,7 @@ image: "image.jpg"
 <div id = "results"></div>
 <script>
     async function loaded(reader) {
-        const response = await fetch("https://github.com/nicholashuang23", {
+        const response = await fetch("https://nichbane-catsvsdogs.hf.space/gradio_api/call/lambda", {
             method:"POST", body:JSON.stringify({"data": [reader.result] }),
             headers: {"Content-Type": "application/json"}
         });
