@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
+<meta name="author" content="Nicholas Huang">
 <meta name="dcterms.date" content="2025-05-25">
 
-<title>Post With Code – fastai-catsvsdogs</title>
+<title>Dog and Cat Classifier – Nicholas Huang’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">fastai-catsvsdogs</span>
+    <span class="navbar-title">Nicholas Huang’s Blog</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -96,12 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://github.com/nicholashuang23"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -116,11 +111,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
+      <h1 class="title">Dog and Cat Classifier</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
+                <div class="quarto-category">fastai</div>
+                <div class="quarto-category">deep learning</div>
               </div>
                   </div>
   </div>
@@ -131,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
+               <p>Nicholas Huang </p>
             </div>
     </div>
       
@@ -157,7 +151,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is a post with executable code.</p>
+<input id="photo" type="file">
+<div id="results">
+
+</div>
+<script>
+    async function loaded(reader) {
+        const response = await fetch("https://nichbane-catsvsdogs.hf.space/gradio_api/call/lambda", {
+            method:"POST", body:JSON.stringify({"data": [reader.result] }),
+            headers: {"Content-Type": "application/json"}
+        });
+        const json = await response.json();
+        const label = json['data'][0]['confidences'][0]['label'];
+        results.innerHTML = `<br/><img src ="${reader.result}" width="300"> <p>${label}</p>`
+    }
+    function read() {
+        const reader = new FileReader()
+        reader.addEventLister('load', () => loaded(reader))
+        reader.readAsDataURL(photo.files[0]);
+    }
+    photo.addEventListener('input',read);
+</script>
 
 
 
