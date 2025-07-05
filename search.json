@@ -19,5 +19,12 @@
     "title": "About",
     "section": "",
     "text": "This blog is to document my data science learning journey"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Dog and Cat Classifier",
+    "section": "",
+    "text": "Have a look at my dog vs cat classifier: https://nichbane-cvd.hf.space/?logs=container&__theme=system&deep_link=3npBKAwpljA"
   }
 ]
