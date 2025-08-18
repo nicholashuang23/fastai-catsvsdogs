@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/Dog breed classifier/index.html",
+    "href": "posts/Dog breed classifier/index.html",
+    "title": "Dog Breed Classifier",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Have a look at my dog vs cat classifier: https://nichbane-dog-breed-classifier.hf.space/?__theme=system&deep_link=rOKY5_9mLRM"
+  },
+  {
+    "objectID": "posts/Learnings/index.html",
+    "href": "posts/Learnings/index.html",
+    "title": "Data Science Learnings",
+    "section": "",
+    "text": "Things that I’ve learnt.\n\nTo use “Hue” parameter in a pairplot to show trends in the target variable\nPython uses _ as a trash variable?"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Data Science Learning blog",
     "section": "",
-    "text": "Dog and Cat Classifier\n\n\n\nfastai\n\ndeep learning\n\n\n\n\n\n\n\n\n\nMay 25, 2025\n\n\nNicholas Huang\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 22, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Data Science Learnings\n\n\n\nKnowledge\n\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nNicholas Huang\n\n\n\n\n\n\n\n\n\n\n\n\nDog Breed Classifier\n\n\n\nfastai\n\ndeep learning\n\n\n\n\n\n\n\n\n\nAug 18, 2025\n\n\nNicholas Huang\n\n\n\n\n\n\n\n\n\n\n\n\nDog and Cat Classifier\n\n\n\nfastai\n\ndeep learning\n\n\n\n\n\n\n\n\n\nMay 25, 2025\n\n\nNicholas Huang\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 22, 2025\n\n\nNicholas Huang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -26,5 +33,12 @@
     "title": "Dog and Cat Classifier",
     "section": "",
     "text": "Have a look at my dog vs cat classifier: https://nichbane-cvd.hf.space/?logs=container&__theme=system&deep_link=3npBKAwpljA"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }
 ]

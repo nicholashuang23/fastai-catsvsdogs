@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nicholashuang23.github.io/fastai-catsvsdogs/posts/welcome/index.html</loc>
-    <lastmod>2025-05-25T04:17:07.317Z</lastmod>
+    <loc>https://nicholashuang23.github.io/fastai-catsvsdogs/posts/Dog breed classifier/index.html</loc>
+    <lastmod>2025-08-18T12:27:00.088Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicholashuang23.github.io/fastai-catsvsdogs/posts/Learnings/index.html</loc>
+    <lastmod>2025-08-18T12:26:57.434Z</lastmod>
   </url>
   <url>
     <loc>https://nicholashuang23.github.io/fastai-catsvsdogs/index.html</loc>
@@ -14,6 +18,10 @@
   </url>
   <url>
     <loc>https://nicholashuang23.github.io/fastai-catsvsdogs/posts/post-with-code/index.html</loc>
-    <lastmod>2025-07-05T12:02:23.282Z</lastmod>
+    <lastmod>2025-07-05T12:18:06.514Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicholashuang23.github.io/fastai-catsvsdogs/posts/welcome/index.html</loc>
+    <lastmod>2025-08-18T12:00:05.491Z</lastmod>
   </url>
 </urlset>

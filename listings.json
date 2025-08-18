@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/Learnings/index.html",
+      "/posts/Dog breed classifier/index.html",
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
     ]
