@@ -6,11 +6,13 @@ categories: [fastai, deep learning]
 image: "image.jpg"
 ---
 
+Have a look at my dog vs cat classifier: https://nichbane-cvd.hf.space/?logs=container&__theme=system&deep_link=3npBKAwpljA
+
 <input id= "photo" type = "file">
 <div id = "results"></div>
 <script>
     async function loaded(reader) {
-        const response = await fetch("https://nichbane-catsvsdogs.hf.space/gradio_api/call/lambda", {
+        const response = await fetch("https://nichbane-cvd.hf.space/gradio_api/call/lambda", {
             method:"POST", body:JSON.stringify({"data": [reader.result] }),
             headers: {"Content-Type": "application/json"}
         });

@@ -1,0 +1,15 @@
+---
+title: "Data Science Learnings"
+author: "Nicholas Huang"
+date: "2025-08-18"
+categories: Knowledge
+---
+
+Things that I've learnt.
+
+- To use "Hue" parameter in a pairplot to show trends in the target variable
+- Python uses _ as a trash variable?
+
+
+
+
