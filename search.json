@@ -4,7 +4,7 @@
     "href": "posts/Dog breed classifier/index.html",
     "title": "Dog Breed Classifier",
     "section": "",
-    "text": "Have a look at my dog breed classifier: https://huggingface.co/spaces/nichbane/dog_breed_classifier\nThis was my second attempt to build a Fastai model. Although the second lesson in the Fastai course is also a dog breed classifier, this code did not follow that example. I trained a model using the Stanford Dogs Dataset: http://vision.stanford.edu/aditya86/ImageNetDogs/\nThis exercise was to understand the components required to train a Fastai model as well as testing out the various pretrained vision models in the timm library. This model currently uses the levit-384 model"
+    "text": "Try out my dog breed classifier: Dog Breed Classifier\nThis was my second attempt to build a Fastai model. Although the second lesson in the Fastai course is also a dog breed classifier, this code did not follow that example. I trained a model using the Stanford Dogs Dataset: http://vision.stanford.edu/aditya86/ImageNetDogs/\nThis exercise was to understand the components required to train a Fastai model as well as testing out the various pretrained vision models in the timm library. This model currently uses the levit-384 model"
   },
   {
     "objectID": "posts/Learnings/index.html",
@@ -32,7 +32,7 @@
     "href": "posts/post-with-code/index.html",
     "title": "Dog and Cat Classifier",
     "section": "",
-    "text": "Have a look at my dog vs cat classifier: https://huggingface.co/spaces/nichbane/cvd\nThis project was inspired by the first lesson in the Fastai course. This was my first introduction to the Fastai library, Gradio and Hugging Faces.\nIt was definitely intimidating and frustrating learning about these new resources as well as trying to relearn git and linux for my own sake. However, it was very satisfying to get it all working.\nIt is amazing that this was the result of very few lines of code.\nThe process to creating this definitely took longer than expected and showed me I have a lot to learn when it comes to data science and programming in general but I’m happy to have gotten started!"
+    "text": "Try out my dog vs cat classifier: Dog and cat classifier\nThis project was inspired by the first lesson in the Fastai course. This was my first introduction to the Fastai library, Gradio and Hugging Faces.\nIt was definitely intimidating and frustrating learning about these new resources as well as trying to relearn git and linux for my own sake. However, it was very satisfying to get it all working.\nIt is amazing that this was the result of very few lines of code.\nThe process to creating this definitely took longer than expected and showed me I have a lot to learn when it comes to data science and programming in general but I’m happy to have gotten started!"
   },
   {
     "objectID": "posts/welcome/index.html",
