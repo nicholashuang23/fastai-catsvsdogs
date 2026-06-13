@@ -2,13 +2,37 @@
 title: "Data Science Learnings"
 author: "Nicholas Huang"
 date: "2025-08-18"
-categories: Knowledge
+categories: learning
+image: "Learnings.jpg"
 ---
 
 Things that I've learnt.
 
-- To use "Hue" parameter in a pairplot to show trends in the target variable
-- Python uses _ as a trash variable?
+**Exploratory Data Analysis:**
+- Using df.info()/df.describe()/df.head() to have an initial look at the data 
+- To use "Hue" parameter in a pairplot to show trends in the target variable'
+
+
+**Preprocessing:**
+- Different ways of different variable types: select_dtypes and make_column_selector
+- Using the combination of make_column_transform and make_pipeline to transform features for the model
+
+**Concepts:**
+Overfitting - Models that are too complex for the data, captures a lot of the noise in the model leading to poor generalisation, shown by the testing error being much higher than the training error. Ca
+Underfitting - Models that are too simple for the data, doesn't capture much noise which leads to poor accuracy
+Bayes Error Rate - The error of the best model with unlimited samples
+Regularisation - Favouring simpler models over more complex models
+Inductive/Learning Bias - Set of assumptions a learner uses to predict outputs based on inputs unseen
+Variance - Error due to high sensitivity to variation in the training set 
+Bias Error - Error due to erroneous assumptions in the learner
+
+**Metrics:**
+- Using a baseline model like DummyClassifier/DummyRegressor to compare model preformance can be useful
+
+**Miscellaneous:**
+- Convention to use underscore "_" as the name for a throwaway/unused variable
+- In an interactive environment like a Jupyter Notebook, you can use the question mark after an object to show documentation/docstring e.g "StandardScaler?" 
+
 
 
 

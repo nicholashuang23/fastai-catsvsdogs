@@ -3,27 +3,14 @@ title: "Dog Breed Classifier"
 author: "Nicholas Huang"
 date: "2025-08-18"
 categories: [fastai, deep learning]
-image: "image.jpg"
+image: "dogs.jpg"
 ---
 
-Have a look at my dog vs cat classifier: https://nichbane-dog-breed-classifier.hf.space/?__theme=system&deep_link=rOKY5_9mLRM
+# Try out my dog breed classifier: [Dog Breed Classifier](https://huggingface.co/spaces/nichbane/dog_breed_classifier)
 
-<input id= "photo" type = "file">
-<div id = "results"></div>
-<script>
-    async function loaded(reader) {
-        const response = await fetch("https://nichbane-cvd.hf.space/gradio_api/call/lambda", {
-            method:"POST", body:JSON.stringify({"data": [reader.result] }),
-            headers: {"Content-Type": "application/json"}
-        });
-        const json = await response.json();
-        const label = json['data'][0]['confidences'][0]['label'];
-        results.innerHTML = `<br/><img src ="${reader.result}" width="300"> <p>${label}</p>`
-    }
-    function read() {
-        const reader = new FileReader()
-        reader.addEventLister('load', () => loaded(reader))
-        reader.readAsDataURL(photo.files[0]);
-    }
-    photo.addEventListener('input',read);
-</script>
+This was my second attempt to build a Fastai model.<br>
+Although the second lesson in the Fastai course is also a dog breed classifier, this code did not follow that example.<br>
+I trained a model using the Stanford Dogs Dataset: http://vision.stanford.edu/aditya86/ImageNetDogs/
+
+This exercise was to understand the components required to train a Fastai model as well as testing out the various pretrained vision models in the timm library.<br>
+This model currently uses the levit-384 model

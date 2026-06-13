@@ -1,2 +1,5 @@
 /.quarto/
 /_site/
+posts/Dog breed classifier/dogs.jpg
+*.jpg
+*.Identifier
