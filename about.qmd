@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: profile.jpg
+image: data science.jpg
 about:
   template: jolla
   links:
@@ -13,4 +13,13 @@ about:
 
 ---
 
-This blog is to document my data science learning journey
+Hi!
+
+I'm Nicholas Huang and I'm a passionate data scientist.
+
+I've studied a Bachelor of Science majoring in Data Science at the University of Melbourne.
+I've been working as a data analyst for 3 years now. 1.5 years at Infosys and currently 1.5 years at Roy Morgan.
+
+I always been amazed by how Data Science can be utilised to make predictions and classifications about the world.
+Being away from Data Science in the last few years has made me rediscover my passion for the field.
+This blog is to document my data science learning journey.
